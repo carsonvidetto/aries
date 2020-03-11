@@ -1,0 +1,132 @@
+*{
+	box-sizing:border-box;
+	font-family: 'Roboto Mono', monospace;
+}
+body{
+	margin:0;
+	padding:0;
+}
+header {
+	position: absolute;
+	width: 100%;
+	z-index: 3;
+	display: flex;
+	justify-content: space-around;
+}
+header a {
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}
+section.top {
+	background-image: url(stars.jpg);
+	padding: 100px 0 300px 0;
+	position: relative;
+}
+
+section.top h1 {
+	text-align: center;
+}
+
+section.albums {
+	background: rgb(66,55,55);
+background: linear-gradient(180deg, rgba(66,55,55,0) 0%, rgba(66,55,55,1) 37%, rgba(66,55,55,1) 100%);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 50px;
+	position: relative;
+	z-index: 3;
+	margin-top: -131px;
+}
+section.albums div {
+	margin-top: -100px;
+}
+
+section.info {
+	background-color: #423737;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 50px;
+	position: relative;
+	z-index: 4;
+}
+
+.album-img {
+	width: 100%;
+}
+
+.WEL {
+	width: 23%;
+	background-color: #F2BEFC;
+	padding: 30px;
+	text-align: center;
+}
+
+.CAR {
+	width: 23%;
+	background-color: #A594F9;
+	padding: 30px;
+	text-align: center;
+}
+
+.SAY {
+	width: 23%;
+	background-color: #C9F0FF;
+	padding: 30px;
+	text-align: center;
+}
+
+.SAN {
+	width: 23%;
+	background-color: #EEFCCE;
+	padding: 30px;
+	text-align: center;
+}
+.bio {
+	width: 50%;
+	margin-top: 150px;
+	padding-right: 5%;
+}
+
+.bio p{
+	color:white;
+	font-size: 20px;
+	text-align: center; 
+}
+
+.bio-img {
+	width: 50%;
+	margin-top: 150px;
+}
+
+.bio-img img {
+	width: 100%;
+	box-shadow: -40px -40px 0 0px #79D4CE;
+}
+section.bottom-gradient {
+	height: 200px;
+	margin-top: -100px;
+	position: relative;
+	background: linear-gradient(0deg, rgba(66,55,55,0) 0%, rgba(66,55,55,1) 37%, rgba(66,55,55,1) 100%);
+}
+section.bottom {
+	background-image: url(bottom.png);
+	background-position: center top;
+	padding: 100px 5%;
+	margin-top: -100px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	
+}
+.tour-date {
+	width: 33%;
+	margin-bottom: 50px;
+}
+.tour-date p {
+	color: #fff;
+	font-size: 18px;
+}
+
